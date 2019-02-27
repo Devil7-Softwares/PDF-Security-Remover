@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{3378DB54-9FF3-4B45-B87A-5F66DA085711}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>PDF_Security_Remover.PasswordRemover</StartupObject>
-    <RootNamespace>PDF_Security_Remover</RootNamespace>
+    <StartupObject>Devil7.Automation.PDFSecurityRemover.PasswordRemover</StartupObject>
+    <RootNamespace>Devil7.Automation.PDFSecurityRemover</RootNamespace>
     <AssemblyName>PDF Security Remover</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Console</MyType>
@@ -46,6 +46,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DevExpress.Docs.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
@@ -107,6 +110,9 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

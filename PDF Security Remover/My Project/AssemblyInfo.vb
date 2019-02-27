@@ -9,10 +9,10 @@ Imports System.Runtime.InteropServices
 ' Review the values of the assembly attributes
 
 <Assembly: AssemblyTitle("PDF Security Remover")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("PDF Security Remover")>
-<Assembly: AssemblyCopyright("Copyright ©  2019")>
+<Assembly: AssemblyDescription("Simple console application to remove security from PDF such as encryption and other restrictions")>
+<Assembly: AssemblyCompany("Devil7 Softwares")>
+<Assembly: AssemblyProduct("Devil7 Automation Tools")>
+<Assembly: AssemblyCopyright("Copyright © Devil7 Softwares 2019")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
